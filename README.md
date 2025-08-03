@@ -5,7 +5,7 @@ If you have a custom domain that you manage on Cloudflare, this is a simple (and
 ## Steps
 
 1. Clone this repository locally
-2. Replace `yourdomain.com`, `YOUR_NOSTR_NAME`, and `YOUR_NOSTR_PUBLIC_KEY_IN_HEX_FORMAT` in [wrangler.toml]
+2. Replace `yourdomain.com`, `YOUR_NOSTR_NAME`, and `YOUR_NOSTR_PUBLIC_KEY_IN_HEX_FORMAT` in [wrangler.toml](wrangler.toml)
 3. `pnpm install wrangler`
 4. `pnpm wrangler login`
 5. `pnpm wrangler deploy`
