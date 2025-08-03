@@ -1,0 +1,13 @@
+name = "nostr-verification"
+main = "src/index.js"
+compatibility_date = "2025-07-01"
+
+[[routes]]
+pattern = "yourdomain.com/.well-known/nostr.json"
+zone_name = "yourdomain.com"
+
+[vars]
+NOSTR_NAME = "YOUR_NOSTR_NAME"
+NOSTR_PUBLIC_KEY = "YOUR_NOSTR_PUBLIC_KEY_IN_HEX_FORMAT"
+# Optional: Configure relays (JSON array as string)
+# NOSTR_RELAYS = '["wss://relay.one", "wss://relay.two", "wss://relay.three"]'
